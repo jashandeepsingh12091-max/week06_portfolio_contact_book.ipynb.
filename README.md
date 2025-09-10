@@ -1,2 +1,5 @@
-# week06_portfolio_contact_book.ipynb.
-assignment week 6
+Store and retrieve contact details using .items() and nested dictionaries.
+
+Print dictionary contents in a readable format.
+
+Add optional features like contact lookup by name.
