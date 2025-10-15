@@ -1,0 +1,863 @@
+Skip to content
+You said:
+ Weekly Exercise: Show Me Your Process
+What You Submit: Just Steps 1, 2, and 3 for two problems. NO CODE.
+
+This week is about proving you can THINK about a problem before jumping to AI or code.
+
+1.1 Problem 1: Tip Calculator
+1.1.1 The Scenario
+You work at a Perth restaurant. The manager wants a simple tool where staff can enter:
+
+The bill amount (e.g., $45.80)
+The tip percentage (e.g., 15%)
+And get back:
+
+The tip amount
+The total amount to charge
+1.1.2 What You Must Submit
+STEP 1: Understand the Problem
+
+In your own words, what is this program supposed to do? (2-3 sentences)
+
+[Your answer here]
+
+STEP 2: Identify Inputs and Outputs
+
+INPUTS:
+
+[What does the user provide?]
+[What type of data? Numbers? Text?]
+OUTPUTS:
+
+[What does the program show back?]
+[What format?]
+STEP 3: Work It By Hand
+
+Show me you can do this with a calculator. Use this example:
+
+Bill amount: $45.80
+Tip percentage: 15%
+Write the steps:
+
+[First calculation I would do]
+[Second calculation]
+[Final step]
+[What I would tell the staff member]
+1.2 Problem 2: Late Fee Calculator
+1.2.1 The Scenario
+You work for a library in Perth. Books are due back in 14 days. For every day late, there’s a $0.50 fine (maximum $10.00).
+
+The librarian wants a program where they enter:
+
+How many days the book is overdue
+And get back:
+
+The fine amount (or “Maximum fine reached” if it’s over $10)
+1.2.2 What You Must Submit
+STEP 1: Understand the Problem
+
+In your own words, what is this program supposed to do? (2-3 sentences)
+
+[Your answer here]
+
+STEP 2: Identify Inputs and Outputs
+
+INPUTS:
+
+[What information does the librarian provide?]
+OUTPUTS:
+
+[What does the program calculate and show?]
+[Any special cases?]
+STEP 3: Work It By Hand
+
+Show me you understand the logic. Calculate these three cases manually:
+
+Case A: Book is 5 days late
+
+My calculation: [Show your work]
+Fine: [Answer]
+Case B: Book is 25 days late
+
+My calculation: [Show your work]
+Fine: [Answer]
+Special note: [Why is this different?]
+Case C: Book is 0 days late
+
+Fine: [Answer]
+1.3 Submission Requirements
+Create a Google Colab notebook
+Use markdown cells to answer all the questions above
+Export your AI conversation (if you used AI to check your thinking)
+Save as AI_conversation.txt
+Add to your GitHub repo
+Save to GitHub with commit message: “Week 10 - Process documentation”
+NO CODE REQUIRED
+
+1.3.1 About Using AI
+You SHOULD use AI to:
+
+Check if your manual calculations are correct
+Verify your understanding of the problem
+Ask “did I identify all the inputs?”
+But your submitted answers must be in YOUR words, showing YOUR thinking.
+
+1.4 Marking
+Each problem is marked Complete/Incomplete:
+
+Complete: All three steps answered with genuine effort + AI conversation file in repo (if used)
+Incomplete: Missing steps, one-word answers, or no evidence of checking work
+1.5 What I’m Looking For
+✅ Good Answer (Step 1): “This program helps restaurant staff calculate tips quickly. They type in the bill amount and what percentage tip they want to add, and the program tells them the tip amount and the new total.”
+
+❌ Lazy Answer:
+
+“Calculate tips.”
+
+✅ Good Answer (Step 3 - Tip Calculator):
+
+Take $45.80 and multiply by 0.15 to get the tip: $6.87
+Add $6.87 to $45.80 to get the total: $52.67
+Tell the staff member: “Tip is $6.87, total charge is $52.67”
+❌ Lazy Answer:
+
+“Calculate 15% and add it.”
+
+1.6 Why No Code This Week?
+Because I’m testing whether you can THINK about problems, not whether you can get AI to write code for you.
+
+If you can’t do Steps 1-3, then you don’t understand the problem well enough to use AI effectively anyway. 
+ChatGPT said:
+Sure! Here's how you can approach and answer both problems using only Steps 1, 2, and 3 — clearly and in your own words. These answers follow the structure your instructor is asking for and show your thinking without jumping to code.
+
+✅ Problem 1: Tip Calculator
+STEP 1: Understand the Problem
+This program helps restaurant staff quickly calculate how much tip to add to a customer's bill. The staff inputs the bill amount and the desired tip percentage, and the program returns the amount of the tip and the total amount the customer needs to pay.
+
+STEP 2: Identify Inputs and Outputs
+INPUTS:
+
+Bill amount (e.g., 45.80)
+→ Type: Number (Decimal)
+
+Tip percentage (e.g., 15)
+→ Type: Number (Whole number or decimal, representing a percentage without the % sign)*
+
+OUTPUTS:
+
+Tip amount (e.g., 6.87)
+→ Type: Number (Decimal)
+
+Total amount to charge (bill + tip, e.g., 52.67)
+→ Type: Number (Decimal)
+
+STEP 3: Work It By Hand
+Given:
+
+Bill amount: $45.80
+
+Tip percentage: 15%
+
+Steps:
+
+First calculation:
+Multiply the bill by the tip percentage (converted to a decimal):
+$45.80 × 0.15 = $6.87
+
+Second calculation:
+Add the tip to the bill to get the total:
+$45.80 + $6.87 = $52.67
+
+Final step:
+I would tell the staff member:
+“The tip is $6.87. The total amount to charge the customer is $52.67.”
+
+✅ Problem 2: Late Fee Calculator
+STEP 1: Understand the Problem
+This program calculates how much a library fine is
+
+You said:
+HI IAM BEGGINER PLS HELP ME OUT
+ChatGPT said:
+Absolutely! You're in the right place, and I’ll guide you step-by-step. Since this week's task is thinking through the problem, not writing code, we’ll focus on understanding and solving two simple problems using logic and basic math.
+
+✅ Problem 1: Tip Calculator
+✅ STEP 1: Understand the Problem
+What is this program supposed to do? (In your own words)
+
+This program helps restaurant staff figure out how much tip a customer should leave, based on the bill amount and a tip percentage. It then adds the tip to the bill to show the total amount the customer should pay.
+
+✅ STEP 2: Identify Inputs and Outputs
+INPUTS:
+
+Bill amount (e.g., 45.80) → Number (decimal)
+
+Tip percentage (e.g., 15) → Number (whole number or decimal)
+
+OUTPUTS:
+
+Tip amount → Number with 2 decimal places (money format)
+
+Total amount to charge → Number with 2 decimal places
+
+✅ STEP 3: Work It By Hand
+Given Example:
+
+Bill amount: $45.80
+
+Tip percentage: 15%
+
+Step-by-step:
+
+Multiply the bill by the tip percentage (as a decimal):
+$45.80 × 0.15 = $6.87
+
+Add the tip to the bill:
+$45.80 + $6.87 = $52.67
+
+Final answer to tell the staff:
+
+“The tip is $6.87. The total amount to charge is $52.67.”
+
+✅ Problem 2: Late Fee Calculator
+✅ STEP 1: Understand the Problem
+What is this program supposed to do? (In your own words)
+
+This program helps library staff calculate how much a person owes for returning a book late. It charges $0.50 for every day late, but the total fine cannot go over $10.00.
+
+✅ STEP 2: Identify Inputs and Outputs
+INPUT:
+
+Number of days the book is overdue → Whole number
+
+OUTPUT:
+
+Fine amount → Number in dollars (max $10.00)
+
+Special case: If the fine goes over $10.00, show message: “Maximum fine reached”
+
+✅ STEP 3: Work It By Hand
+Case A: Book is 5 days late
+5 × $0.50 = $2.50
+
+This is below the $10 limit.
+
+✅ Fine: $2.50
+
+Case B: Book is 25 days late
+25 × $0.50 = $12.50
+
+This is over the $10 maximum.
+
+✅ Fine: $10.00
+✅ Special note: Fine is capped at $10, even though the calculated fine is $12.50.
+
+Case C: Book is 0 days late
+No fine.
+
+✅ Fine: $0.00
+
+That’s it! 🎉 You’re thinking like a programmer now — breaking the problem into steps, identifying inputs and outputs, and checking examples with simple math.
+
+✅ What to Do Next
+Copy this work into your Google Colab notebook
+
+Format it neatly using Markdown cells (not code!)
+
+Save and commit it to GitHub with message: Week 10 - Process documentation
+
+If you used this AI help, export this chat as AI_conversation.txt and upload that too.
+
+Let me know if you need help with Google Colab or GitHub steps!
+
+You said:
+HELP ME UNDERSTANDING AND BREAK IT DOWN INTO FURTHER STEPS SO THAT I CAN YUNDERSTANDS IT
+ChatGPT said:
+Of course! Since you're just starting out, I’ll break down each part into super simple steps — like building blocks — so it's easier to follow and learn.
+
+We’ll go through each of the two problems step-by-step, in plain English. Let's start with Problem 1: Tip Calculator.
+
+🧮 PROBLEM 1: Tip Calculator
+🎯 What is the goal?
+The restaurant staff wants a simple tool to help them:
+
+Enter the bill amount (like $45.80)
+
+Enter the tip percentage (like 15%)
+
+Get back:
+
+How much the tip is ($6.87)
+
+How much the total bill is with the tip included ($52.67)
+
+✅ STEP 1: Understand the Problem
+Let’s break this down:
+
+When people eat at a restaurant, they usually leave a tip for the waiter — often 10–20% of the bill.
+
+Instead of doing the math in their heads, the staff wants a tool to do it automatically.
+
+The tip amount is a part of the bill, not extra information.
+
+➡️ So the tool must:
+
+Multiply the bill amount by the tip percentage
+
+Add that tip to the bill
+
+Show both the tip and the total to charge
+
+✅ STEP 2: Inputs and Outputs (What goes in? What comes out?)
+Think of this like using a calculator:
+
+🔢 INPUTS (What the user types in):
+bill_amount: A number like 45.80 → (money in dollars)
+
+tip_percent: A number like 15 → (percentage value)
+
+💬 OUTPUTS (What the program shows):
+tip_amount: How much the tip is in dollars
+
+total_amount: Final amount = bill + tip
+
+✅ STEP 3: Work It By Hand (Do the math yourself)
+Let’s use this example:
+
+Bill = $45.80, Tip = 15%
+
+Step-by-step math:
+
+✅ Turn 15% into a decimal → 15 ÷ 100 = 0.15
+
+✅ Multiply bill by tip:
+
+$45.80 × 0.15 = $6.87 (this is the tip)
+
+✅ Add tip to the bill:
+
+$45.80 + $6.87 = $52.67 (this is the total)
+
+🗣️ Final message:
+
+"The tip is $6.87. The total amount to charge is $52.67."
+
+📚 PROBLEM 2: Library Late Fee Calculator
+🎯 What is the goal?
+The library wants a simple tool:
+
+Enter how many days late a book is
+
+The tool should:
+
+Multiply the number of days by $0.50
+
+If the fine goes over $10.00, stop it at $10 (don’t charge more)
+
+✅ STEP 1: Understand the Problem
+Breaking it down:
+
+Books are due in 14 days.
+
+If returned late, you pay $0.50 per day.
+
+BUT — the most you can be charged is $10.00, no matter how late.
+
+➡️ So the tool must:
+
+Multiply days late × 0.50
+
+But never return more than $10.00
+
+✅ STEP 2: Inputs and Outputs
+🔢 INPUT:
+days_late: a number like 5, 25, or 0 → (how late the book is)
+
+💬 OUTPUT:
+fine_amount: the fine in dollars
+
+Special Rule: If fine > $10.00, show "$10.00 – Maximum fine reached"
+
+✅ STEP 3: Do the Math Manually
+🧪 Case A: Book is 5 days late
+5 × 0.50 = $2.50 → fine is $2.50
+
+Not over the max, so it's OK.
+
+✅ Fine: $2.50
+
+🧪 Case B: Book is 25 days late
+25 × 0.50 = $12.50
+
+That's over $10.00, so cap it.
+
+✅ Fine: $10.00 – Maximum fine reached
+
+🧪 Case C: Book is 0 days late
+0 × 0.50 = $0.00
+
+✅ Fine: $0.00 (No fine at all)
+
+💡 Summary of Steps for You to Remember:
+💬 TIP CALCULATOR
+Input the bill and tip %
+
+Turn percent into decimal → divide by 100
+
+Multiply bill × tip decimal = tip amount
+
+Add bill + tip = total
+
+Show tip and total
+
+💬 LATE FEE CALCULATOR
+Input how many days late
+
+Multiply days × $0.50
+
+If result > $10.00 → fine = $10.00
+
+Show fine amount
+
+If you'd like, I can help you copy this into a Google Colab notebook in markdown form — just say the word!
+
+And if anything is still confusing, ask me — no question is too small. You're doing great for a beginner! 💪
+
+You said:
+LET START WITH PROBLEM 1 
+ChatGPT said:
+Awesome! 💪 Let’s walk through Problem 1: Tip Calculator, one step at a time, and break it down as simply as possible. We'll do STEP 1, STEP 2, and STEP 3 together — just like your assignment asks.
+
+✅ PROBLEM 1: TIP CALCULATOR
+✅ STEP 1: Understand the Problem
+Let’s think about what this program should do.
+
+In your own words (copy this into your Colab notebook):
+
+This program helps restaurant staff quickly calculate how much a customer should tip based on the bill. The staff types in the total bill and the tip percentage, and the program tells them both the tip amount and the final total to charge.
+
+✅ STEP 2: Identify Inputs and Outputs
+Let’s figure out what information goes in (inputs) and what results come out (outputs).
+
+Inputs:
+
+Bill amount (a number like 45.80) — type: decimal number
+
+Tip percentage (a number like 15) — type: whole number or decimal
+
+Outputs:
+
+Tip amount (how much extra to pay) — shown as money ($X.XX)
+
+Total amount (bill + tip) — also money format
+
+✅ You can copy this too:
+
+**INPUTS:**
+- Bill amount (e.g., 45.80) — Number (decimal)
+- Tip percentage (e.g., 15) — Number (percent)
+
+**OUTPUTS:**
+- Tip amount (e.g., $6.87) — Decimal (money)
+- Total amount (e.g., $52.67) — Decimal (money)
+✅ STEP 3: Work It By Hand (With Calculator or Brain)
+Let’s do the math ourselves with the example:
+
+Example:
+
+Bill = $45.80
+
+Tip = 15%
+
+Step-by-step:
+
+Convert the tip percentage to a decimal
+→ 15 ÷ 100 = 0.15
+
+Multiply the bill by the tip decimal
+→ 45.80 × 0.15 = 6.87
+✅ This is the tip amount
+
+Add the tip to the bill
+→ 45.80 + 6.87 = 52.67
+✅ This is the total amount to charge
+
+✅ Final message to staff:
+
+"The tip is $6.87. The total amount to charge is $52.67."
+
+✅ Ready to Copy Into Colab
+Here's what you would write in your notebook:
+
+STEP 1: Understand the Problem
+This program helps restaurant staff quickly calculate how much a customer should tip based on the bill. The staff types in the total bill and the tip percentage, and the program tells them both the tip amount and the final total to charge.
+
+STEP 2: Identify Inputs and Outputs
+INPUTS:
+
+Bill amount (e.g., 45.80) — Number (decimal)
+
+Tip percentage (e.g., 15) — Number (percent)
+
+OUTPUTS:
+
+Tip amount (e.g., $6.87) — Decimal (money)
+
+Total amount (e.g., $52.67) — Decimal (money)
+
+STEP 3: Work It By Hand
+Example:
+
+Bill amount: $45.80
+
+Tip percentage: 15%
+
+Step-by-step:
+
+Convert 15% to decimal → 15 ÷ 100 = 0.15
+
+Multiply 45.80 × 0.15 = 6.87 (tip amount)
+
+Add tip to bill: 45.80 + 6.87 = 52.67 (total)
+
+Final result:
+
+"The tip is $6.87. The total amount to charge is $52.67."
+
+✅ You’re done with Problem 1!
+
+When you're ready, say “Let’s do Problem 2” and I’ll help you break that one down too.
+
+You said:
+WELL I DONT NEED CODE
+ChatGPT said:
+Exactly — you're totally right! 👍
+This week’s task is thinking, not coding — and you’re doing it correctly by breaking the problem down into steps.
+
+You do NOT need any code, just clear explanations like the ones we worked on.
+
+Let’s review what you should include for Problem 1: Tip Calculator — no code, just written answers in your Colab notebook using markdown.
+
+✅ ✅ Final Version to Paste into Your Notebook (Problem 1)
+You can copy and paste the following markdown into your Google Colab notebook:
+
+🧾 Problem 1: Tip Calculator
+✅ STEP 1: Understand the Problem
+This program helps restaurant staff quickly calculate how much a customer should tip based on the bill. The staff types in the total bill and the tip percentage, and the program tells them both the tip amount and the final total to charge.
+
+✅ STEP 2: Identify Inputs and Outputs
+INPUTS:
+
+Bill amount (e.g., 45.80) — Number (decimal)
+
+Tip percentage (e.g., 15) — Number (percent)
+
+OUTPUTS:
+
+Tip amount (e.g., $6.87) — Decimal (money)
+
+Total amount (e.g., $52.67) — Decimal (money)
+
+✅ STEP 3: Work It By Hand
+Example:
+Bill amount: $45.80
+Tip percentage: 15%
+
+Steps:
+
+Convert 15% to decimal → 15 ÷ 100 = 0.15
+
+Multiply bill by tip: 45.80 × 0.15 = 6.87 (tip amount)
+
+Add tip to bill: 45.80 + 6.87 = 52.67 (total)
+
+Final message to staff:
+
+“The tip is $6.87. The total amount to charge is $52.67.”
+
+✅ That’s it for Problem 1!
+Let me know when you're ready to do Problem 2: Library Late Fee Calculator — and we’ll break it down just like this.
+
+You said:
+AND SAME FOR PROBLEM 2
+ChatGPT said:
+Perfect! 👌 Let's now go step-by-step for Problem 2: Library Late Fee Calculator, just like we did for the tip calculator — no code, just logic and clear explanations.
+
+✅ ✅ Final Version to Paste into Your Notebook (Problem 2)
+Here’s the complete markdown for you to copy into your Google Colab notebook for Problem 2:
+
+📚 Problem 2: Late Fee Calculator
+✅ STEP 1: Understand the Problem
+This program helps library staff calculate the fine for overdue books. If a book is returned late, the customer is charged $0.50 per day. However, the maximum fine allowed is $10.00, no matter how many days late the book is.
+
+✅ STEP 2: Identify Inputs and Outputs
+INPUT:
+
+Number of days the book is overdue — Whole number (e.g., 5, 25, 0)
+
+OUTPUT:
+
+Fine amount in dollars (e.g., $2.50 or $10.00)
+
+Special case: If the fine goes over $10.00, show message: “Maximum fine reached”
+
+✅ STEP 3: Work It By Hand
+📘 Case A: Book is 5 days late
+Calculation:
+
+5 × $0.50 = $2.50
+✅ Fine: $2.50
+
+📕 Case B: Book is 25 days late
+Calculation:
+
+25 × $0.50 = $12.50
+
+$12.50 is more than the $10 maximum
+
+✅ Fine: $10.00
+✅ Special note: “Maximum fine reached” — the fine is capped.
+
+📗 Case C: Book is 0 days late
+Calculation:
+
+0 × $0.50 = $0.00
+
+✅ Fine: $0.00 (no fine if not late)
+
+✅ That's it! You've finished both problems — all three steps for each — and did the thinking the assignment asked for, with no code needed.
+
+✅ Now What?
+Open Google Colab
+
+Paste Problem 1 and Problem 2 into separate markdown cells
+
+Add a title at the top:
+
+# Week 10 - Process Documentation
+Save it
+
+Upload to GitHub
+
+If you used this conversation, download it and save as AI_conversation.txt
+
+Commit with message: Week 10 - Process documentation
+
+Let me know if you need help with Colab, Markdown formatting, or GitHub upload — I’m happy to walk you through that too!
+
+You said:
+THANKS FOR YOUR HELP I REALLY APPREACITE THGAT
+ChatGPT said:
+You're very welcome! 😊
+I'm really glad I could help — you're doing great, especially as a beginner. Asking questions, breaking things down, and thinking step-by-step like this is exactly how you learn and get better.
+
+Here’s a quick checklist before you submit:
+
+✅ Problem 1: Tip Calculator
+✅ Problem 2: Late Fee Calculator
+✅ No code, just clear thinking
+✅ All three steps written out
+✅ AI_conversation.txt (if required)
+✅ Saved and uploaded to GitHub
+
+If you get stuck on Google Colab or GitHub, or need help exporting this chat, just ask.
+
+You're on the right path — keep going! 💪
+Good luck with your submission!
+
+You said:
+HI am i beginner my teacher had given me this assignment pls help me out to do this step by step
+ChatGPT said:
+Hi again! 👋 You're doing great already by asking for help and being clear that you're a beginner — that's how you learn!
+
+Let’s now slow down and go step by step for your assignment, like your teacher asked.
+
+We’re going to do just Problem 1 and Problem 2, and only Steps 1, 2, and 3 — no code.
+
+I’ll give you everything you need to write in your Google Colab notebook. You don’t have to worry — I’ll explain each part before giving you what to write.
+
+✅ Let's Start With Problem 1: Tip Calculator
+🔹 STEP 1: Understand the Problem
+✏️ What does the program do?
+
+💬 It helps restaurant staff calculate the tip based on the bill. The user types in the bill amount and the tip percentage, and the program shows the tip amount and the total amount to charge.
+
+🔹 STEP 2: Identify Inputs and Outputs
+✏️ What info does the user give? What does the program show?
+
+🟠 INPUTS:
+Bill amount (e.g., 45.80) → a decimal number
+
+Tip percentage (e.g., 15%) → a whole number or decimal
+
+🔵 OUTPUTS:
+Tip amount (how much extra to pay)
+
+Total amount (bill + tip)
+
+🔹 STEP 3: Work It by Hand
+Let’s use the example:
+Bill = $45.80, Tip = 15%
+
+Step-by-step:
+
+Convert 15% to decimal →
+15 ÷ 100 = 0.15
+
+Multiply bill by tip →
+45.80 × 0.15 = 6.87 (tip amount)
+
+Add tip to bill →
+45.80 + 6.87 = 52.67 (total)
+
+✅ Final message:
+
+“The tip is $6.87. The total amount to charge is $52.67.”
+
+✍️ What to Paste in Colab (Problem 1)
+Copy this into your notebook:
+
+💡 Problem 1: Tip Calculator
+✅ STEP 1: Understand the Problem
+This program helps restaurant staff calculate a tip based on the bill. The user types in the bill amount and the tip percentage, and the program shows the tip amount and the total amount to charge.
+
+✅ STEP 2: Identify Inputs and Outputs
+INPUTS:
+
+Bill amount (e.g., 45.80) — decimal number
+
+Tip percentage (e.g., 15%) — whole number or decimal
+
+OUTPUTS:
+
+Tip amount (e.g., $6.87)
+
+Total amount (e.g., $52.67)
+
+✅ STEP 3: Work It By Hand
+Example:
+
+Bill: $45.80
+
+Tip: 15%
+
+Steps:
+
+15 ÷ 100 = 0.15
+
+45.80 × 0.15 = 6.87 (tip)
+
+45.80 + 6.87 = 52.67 (total)
+
+Answer to tell staff:
+
+"The tip is $6.87. The total amount to charge is $52.67."
+
+✅ Now let’s move on to Problem 2.
+
+📚 Problem 2: Late Fee Calculator
+🔹 STEP 1: Understand the Problem
+💬 This program helps library staff calculate how much a person owes for a book returned late. The fine is $0.50 per day, but the maximum fine is $10.00.
+
+🔹 STEP 2: Identify Inputs and Outputs
+🟠 INPUT:
+Days late (whole number, like 5 or 25)
+
+🔵 OUTPUT:
+Fine amount
+
+If the fine goes over $10.00, just show $10.00 — Maximum fine reached
+
+🔹 STEP 3: Work It by Hand
+Let’s try 3 cases:
+
+📘 Case A: Book is 5 days late
+5 × $0.50 = $2.50
+✅ Fine: $2.50
+
+📕 Case B: Book is 25 days late
+25 × $0.50 = $12.50
+BUT fine can’t go over $10.00
+✅ Fine: $10.00 — Maximum fine reached
+
+📗 Case C: Book is 0 days late
+0 × $0.50 = $0.00
+✅ Fine: $0.00
+
+✍️ What to Paste in Colab (Problem 2)
+Copy this into your notebook:
+
+💡 Problem 2: Late Fee Calculator
+✅ STEP 1: Understand the Problem
+This program helps library staff calculate the fine for books returned late. The fine is $0.50 per day, but the maximum fine is $10.00, even if the book is very late.
+
+✅ STEP 2: Identify Inputs and Outputs
+INPUT:
+
+Number of days the book is overdue — whole number
+
+OUTPUT:
+
+Fine amount (in dollars)
+
+If fine > $10.00, show “Maximum fine reached”
+
+✅ STEP 3: Work It By Hand
+Case A: 5 days late
+
+5 × $0.50 = $2.50
+
+✅ Fine: $2.50
+
+Case B: 25 days late
+
+25 × $0.50 = $12.50
+
+Max is $10.00 → ✅ Fine: $10.00 (Maximum fine reached)
+
+Case C: 0 days late
+
+0 × $0.50 = $0.00
+
+✅ Fine: $0.00
+
+✅ That’s it! Both problems are done step-by-step with no code.
+
+✅ What You Should Do Now:
+Open Google Colab
+
+Paste the answers into markdown cells (one for each step)
+
+Save the notebook
+
+Download this chat as AI_conversation.txt
+
+Upload both to your GitHub
+
+Commit message: Week 10 - Process documentation
+
+Let me know if you need help with:
+
+Using Google Colab
+
+Formatting markdown
+
+Uploading to GitHub
+
+Exporting this conversation
+
+I’m here to help you until it’s finished! 😊
+
+
+
+
+Attach
+
+Search
+
+Study
+
+Voice
+No file chosenNo file chosen
+ChatGPT can make mistakes. Check important info.
